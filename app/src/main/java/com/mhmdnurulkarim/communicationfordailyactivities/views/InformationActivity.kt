@@ -28,6 +28,6 @@ class InformationActivity : AppCompatActivity() {
             finish()
         }
 
-        binding.pdfViewer.fromStream(resources.openRawResource(R.raw.panduan)).load()
+//        binding.pdfViewer.fromStream(resources.openRawResource(R.raw.panduan)).load()
     }
 }
